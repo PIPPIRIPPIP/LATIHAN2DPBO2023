@@ -10,6 +10,7 @@ class Human {
     private String jenis_kelamin;
 
     /* Public */
+    // Konstruktor
     public Human(String NIK, String nama, String jenis_kelamin) {
         this.NIK = NIK;
         this.nama = nama;
@@ -70,6 +71,7 @@ class Mahasiswa extends SivitasAkademik {
     private String prodi;   
 
     /* Public */
+    // kosntruktor
     public Mahasiswa(String NIK, String nama, String jenis_kelamin, String asal_universitas, String email_edu, String NIM, String fakultas, String prodi) {
         super(NIK, nama, jenis_kelamin, asal_universitas, email_edu);
         this.NIM = NIM;

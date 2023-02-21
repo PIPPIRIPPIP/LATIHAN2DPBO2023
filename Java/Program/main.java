@@ -10,15 +10,18 @@ public class main {
         // Membuat list untuk menyimpan data mahasiswa
         ArrayList<Mahasiswa> data = new ArrayList<>();
 
-        
+        /* Menambahkan data */
+        // Mahasiswa 1
         Mahasiswa mhs = new Mahasiswa("1234567890", "Ayesha", "Laki-laki", "Universitas XYZ", "Ayesha@xyz.ac.id", "123456789", "Fakultas Teknik", "Teknik Informatika");
         data.add(mhs);
+        // Mahasiswa 2
         Mahasiswa mhs1 = new Mahasiswa("0987654321", "Ali", "Laki-laki", "Universitas XYZ", "Ali@xyz.ac.id", "987654321", "Fakultas Kedokteran", "Kedokteran Gigi");
         data.add(mhs1);
+        // Mahasiswa 3
         Mahasiswa mhs2 = new Mahasiswa("1938471938", "Firdaus", "Laki-laki", "Universitas XYZ", "Firdaus@xyz.ac.id", "293849283", "Fakultas MIPA", "Ilmu Komputer");
         data.add(mhs2);
 
-        // Mencetak data mahasiswa
+        // Mencetak data mahasiswa sebanyak data yang ada di array
         System.out.println("           Daftar Mahasiswa           ");
         System.out.println("--------------------------------------");
         for (int i = 0; i < data.size(); i++) {
@@ -30,7 +33,7 @@ public class main {
                 System.out.println(       "  NIM              : " + data.get(i).getNIM());
                 System.out.println(       "  Fakultas         : " + data.get(i).getFakultas());
                 System.out.println(       "  Program Studi    : " + data.get(i).getProdi());
-                System.out.println();
+                System.out.println("--------------------------------------");
             }
 
     }
