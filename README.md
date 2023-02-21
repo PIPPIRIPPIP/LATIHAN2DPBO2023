@@ -12,6 +12,7 @@ Terdapat tiga kelas dalam
    elas Mahasiswa digunakan untuk merepresentasikan objek mahasiswa dengan tambahan atribut NIM, fakultas, dan prodi. Kelas ini merupakan anak dari sivitas akademik, alasannya karena sivitas terdiri dari mahasiswa dan dosen. Sehingga kelas Mahasiswa menjadi anak dari kelas SivitasAkademik.
    
 Berikut desain dari setiap kelas yang ada di program ini:
+
 ![desain program](/CPP/Screenshot/dpbolat2.png)
    
 ## Alur Program
@@ -19,9 +20,11 @@ Program ini menyimpan data dari mahasiswa yang akan di simpan di dalam list. Set
 
 ## Dokumentasi
 - Program PHP
+
 ![program php](/PHP/Screenshot/php.png)
 
 - Program Java
+
 ![program php](/Java/Screenshot/java.png)
 
 
